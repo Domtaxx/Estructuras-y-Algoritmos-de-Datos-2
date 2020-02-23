@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -150,33 +150,6 @@ grafo.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/grafo.cpp.s
 .PHONY : grafo.cpp.s
 
-lista.o: lista.cpp.o
-
-.PHONY : lista.o
-
-# target to build an object file
-lista.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/lista.cpp.o
-.PHONY : lista.cpp.o
-
-lista.i: lista.cpp.i
-
-.PHONY : lista.i
-
-# target to preprocess a source file
-lista.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/lista.cpp.i
-.PHONY : lista.cpp.i
-
-lista.s: lista.cpp.s
-
-.PHONY : lista.s
-
-# target to generate assembly for a file
-lista.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/lista.cpp.s
-.PHONY : lista.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,9 +189,6 @@ help:
 	@echo "... grafo.o"
 	@echo "... grafo.i"
 	@echo "... grafo.s"
-	@echo "... lista.o"
-	@echo "... lista.i"
-	@echo "... lista.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
