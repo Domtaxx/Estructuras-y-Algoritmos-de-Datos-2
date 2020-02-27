@@ -4,4 +4,4 @@ project("Tarea_Sockets")
 
 add_executable("${PROJECT_NAME}"
 "main.cpp"
-"grafo.cpp") 
+"graph.cpp") 

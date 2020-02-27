@@ -74,7 +74,7 @@ class lista{
          * @brief Construct a new lista object
          */
         lista(){};  
-        
+
         /**
          * @brief a function to validate if the list is empty
          * @return true if the list is empty
@@ -184,5 +184,17 @@ class lista{
         };
         //void swap(int pos1, int pos2);
         
+        /**
+         * @brief Get the object counter object
+         * @return int return the object_counter
+         */
+        int get_object_counter(){
+            return object_counter;
+        }
+        
+        void rewrite(generic new_data, int pos){
+            get_node_by_pos(pos)->data=new_data;
+        };
+
 };
 #endif //
