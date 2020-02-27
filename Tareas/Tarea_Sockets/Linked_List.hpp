@@ -27,7 +27,7 @@ template<typename generic>
 class lista{
     private:
     // Atributes
-        int object_counter;
+        int object_counter = 0;
         node<generic>* head;
         node<generic>* end;
     //Private methods
@@ -193,7 +193,6 @@ class lista{
         }
         
         void rewrite(generic new_data, int pos){
-            std::cout<<"aqui falla"<<std::endl;
             get_node_by_pos(pos)->data = new_data;
         };
 

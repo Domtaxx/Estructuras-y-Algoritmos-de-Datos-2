@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+iostream
+-
+cstddef
+-
+ostream
+-
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/what.cpp
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+Linked_List.hpp
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+

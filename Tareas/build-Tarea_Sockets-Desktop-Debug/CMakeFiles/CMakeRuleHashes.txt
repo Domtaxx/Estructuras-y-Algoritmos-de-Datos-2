@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+1963e619c1d4364494a5c5d1883e420a /home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Tarea_Sockets_en_US.ts
+6770daa9767182567077dfdf77f08271 CMakeFiles/Tarea_Sockets_autogen
