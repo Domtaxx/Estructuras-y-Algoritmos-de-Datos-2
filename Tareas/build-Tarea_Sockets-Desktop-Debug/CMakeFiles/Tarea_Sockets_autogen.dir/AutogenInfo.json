@@ -16,6 +16,21 @@
 			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/client.h",
 			"MU",
 			"EWIEGA46WW/moc_client.cpp"
+		],
+		[
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h",
+			"MU",
+			"EWIEGA46WW/moc_graph.cpp"
+		],
+		[
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.h",
+			"MU",
+			"EWIEGA46WW/moc_socket_S.cpp"
+		],
+		[
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.h",
+			"MU",
+			"EWIEGA46WW/moc_socket_c.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -74,11 +89,19 @@
 			"MU"
 		],
 		[
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp",
+			"MU"
+		],
+		[
 			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/main.cpp",
 			"MU"
 		],
 		[
-			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/what.cpp",
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp",
+			"MU"
+		],
+		[
+			"/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp",
 			"MU"
 		]
 	],

@@ -39,9 +39,14 @@ if(ANDROID)
 else()
   add_executable(Tarea_Sockets
     main.cpp
-    what.cpp
+    graph.cpp
+    graph.h
+    socket_S.cpp
     client.cpp
     Linked_List.hpp
+    socket_S.h
+    socket_c.h
+    socket_c.cpp
     client.h
     client.ui
     ${TS_FILES}

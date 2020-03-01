@@ -239,8 +239,15 @@ CMakeFiles/Tarea_Sockets.dir/client.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsgl
 CMakeFiles/Tarea_Sockets.dir/client.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 CMakeFiles/Tarea_Sockets.dir/client.cpp.o: Tarea_Sockets_autogen/include/ui_client.h
 
+CMakeFiles/Tarea_Sockets.dir/graph.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+CMakeFiles/Tarea_Sockets.dir/graph.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp
+CMakeFiles/Tarea_Sockets.dir/graph.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
+
+CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/client.h
+CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/main.cpp
+CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.h
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtCore/qalgorithms.h
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtCore/qarraydata.h
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtCore/qatomic.h
@@ -356,6 +363,11 @@ CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtWidgets/qtwidgets-con
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/Tarea_Sockets.dir/main.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 
-CMakeFiles/Tarea_Sockets.dir/what.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
-CMakeFiles/Tarea_Sockets.dir/what.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/what.cpp
+CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
+CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp
+CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.h
+
+CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp
+CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.h
 

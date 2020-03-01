@@ -135,7 +135,7 @@ class lista{
          */
         generic get_data_by_pos(int pos){
             if(object_counter<=0 || pos>=object_counter){
-                return -1;
+                return NULL;
             }else{
                 node<generic>* temp = head;
                 for(int i = 0; i<pos; i++){

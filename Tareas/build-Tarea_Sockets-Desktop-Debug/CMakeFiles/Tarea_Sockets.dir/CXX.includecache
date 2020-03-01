@@ -14,7 +14,11 @@ cstddef
 ostream
 -
 
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/what.cpp
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp
+graph.h
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
 stdio.h
 -
 stdlib.h

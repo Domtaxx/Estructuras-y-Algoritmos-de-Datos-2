@@ -1,7 +1,4 @@
-#include <stdio.h> 
-#include <stdlib.h> 
-#include <limits.h> 
-#include "Linked_List.hpp"
+#include "graph.h"
   
 // A structure to represent a node in adjacency list 
 struct AdjListNode 
@@ -51,16 +48,15 @@ struct Graph* createGraph(int V)
     return graph; 
 } 
 
-void printPath(lista<int> parent, int j)
+std::string givePath(lista<int> parent, int j)
 {
-
+    std::string path;
     // Base Case : If j is source
     if (parent.get_data_by_pos(j) == - 1)
-        return;
+        return "";
 
-    printPath(parent, parent.get_data_by_pos(j));
-
-    printf("%d ", j);
+    path+= (givePath(parent, parent.get_data_by_pos(j))+" -> "+std::to_string(j));
+    return path;
 }
 
 // Adds an edge to an undirected graph 
@@ -216,7 +212,7 @@ void decreaseKey(struct MinHeap* minHeap, int v, int dist)
 // 'v' is in min heap or not 
 bool isInMinHeap(struct MinHeap *minHeap, int v) 
 { 
-   if (minHeap->pos[v] < minHeap->size) 
+   if (minHeap->pos[v] < minHeap->size)
      return true; 
    return false; 
 } 
@@ -227,14 +223,20 @@ void printlist(lista<int> dist,lista<int> parent, int n)
     printf("Vertex   Distance from Source\n"); 
     for (int i = 0; i < n; ++i){
         printf("%d \t\t %d\n", i, dist.get_data_by_pos(i));
-        printPath(parent, i);
+        givePath(parent, i);
     }
-} 
-  
+};
+
+std::string route(lista<int> dist, lista<int> parent, int from, int to){
+    std::string path = givePath(parent, to);
+    std::string ans = ("shortest path from: "+std::to_string(from)+" to: "+std::to_string(to)+" with a cost of: "
+                       +std::to_string(dist.get_data_by_pos(to))+" is: "
+                       +std::to_string(from)+path);
+    return ans;
+};
 // The main function that calulates distances of shortest paths from src to all 
 // vertices. It is a O(ELogV) function 
-void dijkstra(struct Graph* graph, int src) 
-{
+std::string dijkstra(struct Graph* graph, int src, int to){
     lista<int> parent = lista<int>(-1);
     int V = graph->V;// Get the number of vertices in graph 
     lista<int> dist = lista<int>();      // dist values used to pick minimum weight edge in cut 
@@ -289,33 +291,7 @@ void dijkstra(struct Graph* graph, int src)
         } 
     } 
     // print the calculated shortest distances 
-    printlist(dist,parent, V);
+    std::cout<<route(dist,parent,src,to)<<std::endl;
+    return route(dist,parent,src,to);
 } 
 
-int main(){
-    struct Graph* graph = createGraph(20); 
-    addEdge(graph, 0, 1, 4); 
-    addEdge(graph, 0, 7, 8); 
-    addEdge(graph, 1, 2, 8); 
-    addEdge(graph, 1, 7, 11); 
-    addEdge(graph, 2, 3, 7); 
-    addEdge(graph, 2, 8, 2); 
-    addEdge(graph, 2, 5, 4); 
-    addEdge(graph, 3, 4, 9); 
-    addEdge(graph, 3, 5, 14); 
-    addEdge(graph, 4, 5, 10); 
-    addEdge(graph, 5, 6, 2); 
-    addEdge(graph, 6, 7, 1); 
-    addEdge(graph, 6, 8, 6); 
-    addEdge(graph, 7, 8, 7); 
-    addEdge(graph, 12, 7, 3);
-    addEdge(graph, 15, 8, 6);
-    addEdge(graph, 18, 8, 7);
-    addEdge(graph, 11, 7, 1);
-    addEdge(graph, 10, 8, 6);
-    addEdge(graph, 6, 14, 7);
-
-    dijkstra(graph, 7);
-
-    return 0;
-}

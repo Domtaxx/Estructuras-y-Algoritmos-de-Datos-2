@@ -190,6 +190,33 @@ client.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+graph.o: graph.cpp.o
+
+.PHONY : graph.o
+
+# target to build an object file
+graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/graph.cpp.o
+.PHONY : graph.cpp.o
+
+graph.i: graph.cpp.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/graph.cpp.i
+.PHONY : graph.cpp.i
+
+graph.s: graph.cpp.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/graph.cpp.s
+.PHONY : graph.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -217,32 +244,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-what.o: what.cpp.o
+socket_S.o: socket_S.cpp.o
 
-.PHONY : what.o
+.PHONY : socket_S.o
 
 # target to build an object file
-what.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/what.cpp.o
-.PHONY : what.cpp.o
+socket_S.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o
+.PHONY : socket_S.cpp.o
 
-what.i: what.cpp.i
+socket_S.i: socket_S.cpp.i
 
-.PHONY : what.i
+.PHONY : socket_S.i
 
 # target to preprocess a source file
-what.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/what.cpp.i
-.PHONY : what.cpp.i
+socket_S.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.i
+.PHONY : socket_S.cpp.i
 
-what.s: what.cpp.s
+socket_S.s: socket_S.cpp.s
 
-.PHONY : what.s
+.PHONY : socket_S.s
 
 # target to generate assembly for a file
-what.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/what.cpp.s
-.PHONY : what.cpp.s
+socket_S.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.s
+.PHONY : socket_S.cpp.s
+
+socket_c.o: socket_c.cpp.o
+
+.PHONY : socket_c.o
+
+# target to build an object file
+socket_c.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o
+.PHONY : socket_c.cpp.o
+
+socket_c.i: socket_c.cpp.i
+
+.PHONY : socket_c.i
+
+# target to preprocess a source file
+socket_c.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.i
+.PHONY : socket_c.cpp.i
+
+socket_c.s: socket_c.cpp.s
+
+.PHONY : socket_c.s
+
+# target to generate assembly for a file
+socket_c.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.s
+.PHONY : socket_c.cpp.s
 
 # Help Target
 help:
@@ -260,12 +314,18 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... graph.o"
+	@echo "... graph.i"
+	@echo "... graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... what.o"
-	@echo "... what.i"
-	@echo "... what.s"
+	@echo "... socket_S.o"
+	@echo "... socket_S.i"
+	@echo "... socket_S.s"
+	@echo "... socket_c.o"
+	@echo "... socket_c.i"
+	@echo "... socket_c.s"
 .PHONY : help
 
 

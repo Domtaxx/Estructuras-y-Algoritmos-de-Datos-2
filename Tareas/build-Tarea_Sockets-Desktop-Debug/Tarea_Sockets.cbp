@@ -132,10 +132,25 @@
 		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/client.ui">
 			<Option target="Tarea_Sockets"/>
 		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp">
+			<Option target="Tarea_Sockets"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h">
+			<Option target="Tarea_Sockets"/>
+		</Unit>
 		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/main.cpp">
 			<Option target="Tarea_Sockets"/>
 		</Unit>
-		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/what.cpp">
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp">
+			<Option target="Tarea_Sockets"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.h">
+			<Option target="Tarea_Sockets"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp">
+			<Option target="Tarea_Sockets"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.h">
 			<Option target="Tarea_Sockets"/>
 		</Unit>
 		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/Tarea_Sockets_autogen/mocs_compilation.cpp">
