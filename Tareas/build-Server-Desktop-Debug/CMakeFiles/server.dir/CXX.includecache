@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/Linked_List.hpp
+iostream
+-
+cstddef
+-
+ostream
+-
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/graph.h
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+Linked_List.hpp
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/Linked_List.hpp
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/socket_S.cpp
+socket_S.h
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/socket_S.h
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/socket_S.h
+Linked_List.hpp
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/Linked_List.hpp
+graph.h
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server/graph.h
+iostream
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+string.h
+-
+string
+-
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+

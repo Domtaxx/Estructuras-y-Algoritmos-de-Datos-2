@@ -1,0 +1,4 @@
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles/Tarea_Sockets.dir
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles/Tarea_Sockets_autogen.dir

@@ -1,0 +1,3 @@
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles/server.dir
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles/edit_cache.dir
