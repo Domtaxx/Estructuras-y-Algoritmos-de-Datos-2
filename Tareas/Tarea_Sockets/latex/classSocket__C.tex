@@ -1,0 +1,114 @@
+\hypertarget{classSocket__C}{}\doxysection{Socket\+\_\+C Class Reference}
+\label{classSocket__C}\index{Socket\_C@{Socket\_C}}
+
+
+The \mbox{\hyperlink{classSocket__C}{Socket\+\_\+C}} class.  
+
+
+
+
+{\ttfamily \#include $<$socket\+\_\+c.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSocket__C_adb436e1369b7a03a4c932ff469377fe2}\label{classSocket__C_adb436e1369b7a03a4c932ff469377fe2}} 
+\mbox{\hyperlink{classSocket__C_adb436e1369b7a03a4c932ff469377fe2}{Socket\+\_\+C}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSocket__C}{Socket\+\_\+C}} constructor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSocket__C_a71e75396b66937120dc942483bd41d58}{start}} ()
+\begin{DoxyCompactList}\small\item\em start client socket waiting for response \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSocket__C_a104e4654ff94f3c31edc27c0460d38a9}{start\+\_\+shocko}} ()
+\begin{DoxyCompactList}\small\item\em start\+\_\+shocko start client socket, without waiting or sending msgs \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSocket__C_a1a231dfdf0a56b3e22005a82c91e2251}{send\+\_\+msg}} (int from, int dest)
+\begin{DoxyCompactList}\small\item\em send\+\_\+msg a function that uses the sockets to communicate \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSocket__C_a7070bc653bafe17873ad70001312c1ae}{get\+Unconnected}} ()
+\begin{DoxyCompactList}\small\item\em getter for unconnected \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSocket__C_a67f7ce425bf0235fa590c5d974b3d60e}{get\+Active}} ()
+\begin{DoxyCompactList}\small\item\em getter for active \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSocket__C_a34d679e9e954634a5e327f336f0ae7ac}\label{classSocket__C_a34d679e9e954634a5e327f336f0ae7ac}} 
+void \mbox{\hyperlink{classSocket__C_a34d679e9e954634a5e327f336f0ae7ac}{close\+\_\+shocko}} ()
+\begin{DoxyCompactList}\small\item\em close\+\_\+shocko, closes the socket \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classSocket__C}{Socket\+\_\+C}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSocket__C_a67f7ce425bf0235fa590c5d974b3d60e}\label{classSocket__C_a67f7ce425bf0235fa590c5d974b3d60e}} 
+\index{Socket\_C@{Socket\_C}!getActive@{getActive}}
+\index{getActive@{getActive}!Socket\_C@{Socket\_C}}
+\doxysubsubsection{\texorpdfstring{getActive()}{getActive()}}
+{\footnotesize\ttfamily bool Socket\+\_\+\+C\+::get\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter for active 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSocket__C_a7070bc653bafe17873ad70001312c1ae}\label{classSocket__C_a7070bc653bafe17873ad70001312c1ae}} 
+\index{Socket\_C@{Socket\_C}!getUnconnected@{getUnconnected}}
+\index{getUnconnected@{getUnconnected}!Socket\_C@{Socket\_C}}
+\doxysubsubsection{\texorpdfstring{getUnconnected()}{getUnconnected()}}
+{\footnotesize\ttfamily bool Socket\+\_\+\+C\+::get\+Unconnected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter for unconnected 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSocket__C_a1a231dfdf0a56b3e22005a82c91e2251}\label{classSocket__C_a1a231dfdf0a56b3e22005a82c91e2251}} 
+\index{Socket\_C@{Socket\_C}!send\_msg@{send\_msg}}
+\index{send\_msg@{send\_msg}!Socket\_C@{Socket\_C}}
+\doxysubsubsection{\texorpdfstring{send\_msg()}{send\_msg()}}
+{\footnotesize\ttfamily std\+::string Socket\+\_\+\+C\+::send\+\_\+msg (\begin{DoxyParamCaption}\item[{int}]{from,  }\item[{int}]{dest }\end{DoxyParamCaption})}
+
+
+
+send\+\_\+msg a function that uses the sockets to communicate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & node from \\
+\hline
+{\em dest} & node destiny \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dijkstras awnser 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSocket__C_a71e75396b66937120dc942483bd41d58}\label{classSocket__C_a71e75396b66937120dc942483bd41d58}} 
+\index{Socket\_C@{Socket\_C}!start@{start}}
+\index{start@{start}!Socket\_C@{Socket\_C}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily int Socket\+\_\+\+C\+::start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+start client socket waiting for response 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSocket__C_a104e4654ff94f3c31edc27c0460d38a9}\label{classSocket__C_a104e4654ff94f3c31edc27c0460d38a9}} 
+\index{Socket\_C@{Socket\_C}!start\_shocko@{start\_shocko}}
+\index{start\_shocko@{start\_shocko}!Socket\_C@{Socket\_C}}
+\doxysubsubsection{\texorpdfstring{start\_shocko()}{start\_shocko()}}
+{\footnotesize\ttfamily int Socket\+\_\+\+C\+::start\+\_\+shocko (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+start\+\_\+shocko start client socket, without waiting or sending msgs 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+socket\+\_\+c.\+h\item 
+socket\+\_\+c.\+cpp\end{DoxyCompactItemize}
