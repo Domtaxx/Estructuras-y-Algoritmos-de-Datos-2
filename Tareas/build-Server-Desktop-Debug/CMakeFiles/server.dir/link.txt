@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/server.dir/main.cpp.o CMakeFiles/server.dir/graph.cpp.o CMakeFiles/server.dir/socket_S.cpp.o  -o server 

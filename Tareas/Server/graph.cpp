@@ -1,5 +1,10 @@
 #include "graph.h"
-  
+/**
+  El codigo fuente fue tomado de https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/
+  y de https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
+  fue modificado por Brian Wagemans Alvarado
+
+*/
 // A structure to represent a node in adjacency list 
 struct AdjListNode 
 { 

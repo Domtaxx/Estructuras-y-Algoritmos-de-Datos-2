@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Grafo y Sockets"
+CMAKE_SOURCE_DIR = "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Server"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Grafo y Sockets"
+CMAKE_BINARY_DIR = "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Grafo y Sockets/CMakeFiles" "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Grafo y Sockets/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles" "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Grafo y Sockets/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Server-Desktop-Debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tarea_Sockets
+# Target rules for targets named server
 
 # Build rule for target.
-Tarea_Sockets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Tarea_Sockets
-.PHONY : Tarea_Sockets
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
 # fast build rule for target.
-Tarea_Sockets/fast:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/build
-.PHONY : Tarea_Sockets/fast
+server/fast:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
 
-grafo.o: grafo.cpp.o
+graph.o: graph.cpp.o
 
-.PHONY : grafo.o
+.PHONY : graph.o
 
 # target to build an object file
-grafo.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/grafo.cpp.o
-.PHONY : grafo.cpp.o
+graph.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/graph.cpp.o
+.PHONY : graph.cpp.o
 
-grafo.i: grafo.cpp.i
+graph.i: graph.cpp.i
 
-.PHONY : grafo.i
+.PHONY : graph.i
 
 # target to preprocess a source file
-grafo.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/grafo.cpp.i
-.PHONY : grafo.cpp.i
+graph.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/graph.cpp.i
+.PHONY : graph.cpp.i
 
-grafo.s: grafo.cpp.s
+graph.s: graph.cpp.s
 
-.PHONY : grafo.s
+.PHONY : graph.s
 
 # target to generate assembly for a file
-grafo.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/grafo.cpp.s
-.PHONY : grafo.cpp.s
+graph.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/graph.cpp.s
+.PHONY : graph.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,8 +174,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Sockets.dir/build.make CMakeFiles/Tarea_Sockets.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+socket_S.o: socket_S.cpp.o
+
+.PHONY : socket_S.o
+
+# target to build an object file
+socket_S.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/socket_S.cpp.o
+.PHONY : socket_S.cpp.o
+
+socket_S.i: socket_S.cpp.i
+
+.PHONY : socket_S.i
+
+# target to preprocess a source file
+socket_S.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/socket_S.cpp.i
+.PHONY : socket_S.cpp.i
+
+socket_S.s: socket_S.cpp.s
+
+.PHONY : socket_S.s
+
+# target to generate assembly for a file
+socket_S.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/socket_S.cpp.s
+.PHONY : socket_S.cpp.s
 
 # Help Target
 help:
@@ -184,14 +211,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Tarea_Sockets"
+	@echo "... server"
 	@echo "... edit_cache"
-	@echo "... grafo.o"
-	@echo "... grafo.i"
-	@echo "... grafo.s"
+	@echo "... graph.o"
+	@echo "... graph.i"
+	@echo "... graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... socket_S.o"
+	@echo "... socket_S.i"
+	@echo "... socket_S.s"
 .PHONY : help
 
 

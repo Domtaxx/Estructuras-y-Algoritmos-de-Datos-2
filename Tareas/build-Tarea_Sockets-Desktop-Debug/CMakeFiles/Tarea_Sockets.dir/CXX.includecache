@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp
+socket_c.h
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.h
+
+/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.h
 iostream
 -
-cstddef
+sys/socket.h
 -
-ostream
+sys/types.h
 -
-
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp
-graph.h
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
-
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.h
-stdio.h
+unistd.h
 -
-stdlib.h
+netdb.h
 -
-limits.h
+arpa/inet.h
 -
-Linked_List.hpp
-/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/Linked_List.hpp
+string.h
+-
+string
+-
 

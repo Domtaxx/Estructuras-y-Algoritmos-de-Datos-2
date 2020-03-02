@@ -17,6 +17,7 @@
 class Socket_S{
 private:
     int listening = socket(AF_INET,SOCK_STREAM,0);
+    struct Graph* graph;
     sockaddr_in client;
     socklen_t client_size;
     char host[NI_MAXHOST];

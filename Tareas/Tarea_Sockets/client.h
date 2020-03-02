@@ -2,7 +2,7 @@
 #define CLIENT_H
 
 #include <QMainWindow>
-
+#include "socket_c.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class Client; }
 QT_END_NAMESPACE
@@ -17,5 +17,10 @@ public:
 
 private:
     Ui::Client *ui;
+    Socket_C shocko = Socket_C();
+
+private slots:
+    std::string send_nodes();
+    void on_btn_send_clicked();
 };
 #endif // CLIENT_H

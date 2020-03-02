@@ -8,5 +8,20 @@
         <source>Client</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="client.ui" line="47"/>
+        <source>send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="client.ui" line="73"/>
+        <source>start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="client.ui" line="86"/>
+        <source>destination</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

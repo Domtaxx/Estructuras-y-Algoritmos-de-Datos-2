@@ -87,35 +87,9 @@ CMakeFiles/Tarea_Sockets.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Sockets.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/main.cpp" -o CMakeFiles/Tarea_Sockets.dir/main.cpp.s
 
-CMakeFiles/Tarea_Sockets.dir/graph.cpp.o: CMakeFiles/Tarea_Sockets.dir/flags.make
-CMakeFiles/Tarea_Sockets.dir/graph.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_Sockets.dir/graph.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Sockets.dir/graph.cpp.o -c "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp"
-
-CMakeFiles/Tarea_Sockets.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Sockets.dir/graph.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp" > CMakeFiles/Tarea_Sockets.dir/graph.cpp.i
-
-CMakeFiles/Tarea_Sockets.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Sockets.dir/graph.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/graph.cpp" -o CMakeFiles/Tarea_Sockets.dir/graph.cpp.s
-
-CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: CMakeFiles/Tarea_Sockets.dir/flags.make
-CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o -c "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp"
-
-CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp" > CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.i
-
-CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_S.cpp" -o CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.s
-
 CMakeFiles/Tarea_Sockets.dir/client.cpp.o: CMakeFiles/Tarea_Sockets.dir/flags.make
 CMakeFiles/Tarea_Sockets.dir/client.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tarea_Sockets.dir/client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_Sockets.dir/client.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Sockets.dir/client.cpp.o -c "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/client.cpp"
 
 CMakeFiles/Tarea_Sockets.dir/client.cpp.i: cmake_force
@@ -128,7 +102,7 @@ CMakeFiles/Tarea_Sockets.dir/client.cpp.s: cmake_force
 
 CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o: CMakeFiles/Tarea_Sockets.dir/flags.make
 CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o: /home/domtaxx/Desktop/\ Github\ Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o -c "/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/Tarea_Sockets/socket_c.cpp"
 
 CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.i: cmake_force
@@ -143,8 +117,6 @@ CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.s: cmake_force
 Tarea_Sockets_OBJECTS = \
 "CMakeFiles/Tarea_Sockets.dir/Tarea_Sockets_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Tarea_Sockets.dir/main.cpp.o" \
-"CMakeFiles/Tarea_Sockets.dir/graph.cpp.o" \
-"CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o" \
 "CMakeFiles/Tarea_Sockets.dir/client.cpp.o" \
 "CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o"
 
@@ -153,8 +125,6 @@ Tarea_Sockets_EXTERNAL_OBJECTS =
 
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/Tarea_Sockets_autogen/mocs_compilation.cpp.o
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/main.cpp.o
-Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/graph.cpp.o
-Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/socket_S.cpp.o
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/client.cpp.o
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/socket_c.cpp.o
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/build.make
@@ -162,7 +132,7 @@ Tarea_Sockets: /usr/lib/libQt5Widgets.so.5.14.1
 Tarea_Sockets: /usr/lib/libQt5Gui.so.5.14.1
 Tarea_Sockets: /usr/lib/libQt5Core.so.5.14.1
 Tarea_Sockets: CMakeFiles/Tarea_Sockets.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Tarea_Sockets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/domtaxx/Desktop/ Github Repositorios/Estructuras-y-Algoritmos-de-Datos-2/Tareas/build-Tarea_Sockets-Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Tarea_Sockets"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tarea_Sockets.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
