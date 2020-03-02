@@ -27,7 +27,14 @@ private:
     int accept_calls();
     int Check_connection();
 public:
+    /**
+     * @brief Socket_S constructor
+     */
     Socket_S();
+    /**
+     * @brief starts the socket
+     * @return
+     */
     int start();
 
 };

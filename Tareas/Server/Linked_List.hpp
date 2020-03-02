@@ -135,7 +135,7 @@ class lista{
          */
         generic get_data_by_pos(int pos){
             if(object_counter<=0 || pos>=object_counter){
-                return NULL;
+                return (generic)NULL;
             }else{
                 node<generic>* temp = head;
                 for(int i = 0; i<pos; i++){
@@ -191,7 +191,11 @@ class lista{
         int get_object_counter(){
             return object_counter;
         }
-        
+        /**
+         * @brief rewrite data in specific pos
+         * @param new_data new data to chansge
+         * @param pos to change data from
+         */
         void rewrite(generic new_data, int pos){
             get_node_by_pos(pos)->data = new_data;
         };

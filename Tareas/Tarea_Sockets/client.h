@@ -6,13 +6,22 @@
 QT_BEGIN_NAMESPACE
 namespace Ui { class Client; }
 QT_END_NAMESPACE
-
+/**
+ * @brief The Client class
+ */
 class Client : public QMainWindow
 {
     Q_OBJECT
 
 public:
+    /**
+     * @brief Client
+     * @param parent
+     */
     Client(QWidget *parent = nullptr);
+    /**
+    * @brief Client destructor
+    */
     ~Client();
 
 private:
