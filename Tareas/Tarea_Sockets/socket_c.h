@@ -8,7 +8,9 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
-
+/**
+ * @brief The Socket_C class
+ */
 class Socket_C{
 private:
     int shocko;
